@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/white_panda/static/css/main.34de6062.chunk.css",
-    "main.js": "/white_panda/static/js/main.234dbdfb.chunk.js",
-    "main.js.map": "/white_panda/static/js/main.234dbdfb.chunk.js.map",
+    "main.js": "/white_panda/static/js/main.139606c0.chunk.js",
+    "main.js.map": "/white_panda/static/js/main.139606c0.chunk.js.map",
     "runtime-main.js": "/white_panda/static/js/runtime-main.e69f829d.js",
     "runtime-main.js.map": "/white_panda/static/js/runtime-main.e69f829d.js.map",
     "static/js/2.e1024ce8.chunk.js": "/white_panda/static/js/2.e1024ce8.chunk.js",
     "static/js/2.e1024ce8.chunk.js.map": "/white_panda/static/js/2.e1024ce8.chunk.js.map",
     "index.html": "/white_panda/index.html",
-    "precache-manifest.632773c2ee290c136599069650426591.js": "/white_panda/precache-manifest.632773c2ee290c136599069650426591.js",
+    "precache-manifest.c95c42283411d99e1fe7475cce9a8f90.js": "/white_panda/precache-manifest.c95c42283411d99e1fe7475cce9a8f90.js",
     "service-worker.js": "/white_panda/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/white_panda/static/css/main.34de6062.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.e69f829d.js",
     "static/js/2.e1024ce8.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.234dbdfb.chunk.js"
+    "static/js/main.139606c0.chunk.js"
   ]
 }
