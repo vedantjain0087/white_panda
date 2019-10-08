@@ -10,7 +10,7 @@ export default class Cards extends Component {
        {this.props.cardData.map((c,i) => {
          return     <div key={c.key} className="card_container">
          <div className="card_header">
-             <img src="/images/peacock.png"/>
+             <img src="images/peacock.png"/>
              <div className="card_title">
                  <span className="card_title_main">{c.title}</span>
                  <span className="card_title_price">from <i className="fa fa-inr" aria-hidden="true"></i>{c.price}</span>
