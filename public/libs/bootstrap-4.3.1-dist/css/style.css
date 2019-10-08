@@ -1,9 +1,12 @@
-html, body{
+html,
+body {
     background-color: #FDFDFD;
 }
-a{
+
+a {
     color: #56BCB3
 }
+
 #navbar {
     background-color: #FFFFFF;
     -webkit-box-shadow: 0px 4px 8px -5px rgba(0, 0, 0, 0.35);
@@ -23,8 +26,6 @@ a{
 }
 
 #main_screen {
-
-    height: 600px;
 }
 
 #profile_picture {
@@ -48,42 +49,50 @@ a{
 #sidebar_ico i:hover {
     color: #56BCB3;
 }
-#contentContainer{
+
+#contentContainer {
     padding: 60px;
 }
 
-#description{
+#description {
     background-color: #F9FBFB;
-    padding:10px;
-    color:#56BCB3;
+    padding: 10px;
+    color: #56BCB3;
 }
-#desc_header{
+
+#desc_header {
     margin-bottom: 10px;
 }
-#desc_body{
+
+#desc_body {
     font-size: 13px;
 }
-#desc_button{
+
+#desc_button {
     margin-top: 10px;
     border: 1px solid #56BCB3;
     background-color: #F9FBFB;
-    padding:6px 10px 6px 10px;
+    padding: 6px 10px 6px 10px;
     border-radius: 5px;
     color: #56BCB3;
     font-weight: bold;
 }
-.drawer_icon_container{
+
+.drawer_icon_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 60px;
 }
-.drawer_icon_container:hover{
+
+.drawer_icon_container:hover {
     border-right: 3px solid #56BCB3;
 }
-.active_drawer{
+
+.active_drawer {
     border-right: 3px solid #56BCB3;
 }
+
 .active_drawer i {
     color: #56BCB3;
 }
@@ -102,4 +111,51 @@ a{
 
 .icon_container i {
     font-size: 24px;
+}
+
+.card_container {
+    width: 350px;
+    background-color: #FFFFFF;
+    padding: 35px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card_header {
+    display: flex
+}
+
+.card_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_title_main {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card_title_price {
+    font-size: 15px;
+}
+
+.card_body {
+    font-size: 15px;
+    color: #999999;
+}
+
+.card_button {
+    border: 1px solid#56BCB3;
+    background-color: #F9FBFB;
+    color: #56BCB3;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 115px;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
