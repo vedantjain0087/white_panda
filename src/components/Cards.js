@@ -13,7 +13,7 @@ export default class Cards extends Component {
              <img src="/images/peacock.png"/>
              <div className="card_title">
                  <span className="card_title_main">{c.title}</span>
-                 <span className="card_title_price">{c.price}</span>
+                 <span className="card_title_price">from <i className="fa fa-inr" aria-hidden="true"></i>{c.price}</span>
              </div>
          </div>
          <div className="card_body">
