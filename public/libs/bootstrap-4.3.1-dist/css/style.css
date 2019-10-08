@@ -6,6 +6,10 @@ body {
 a {
     color: #56BCB3
 }
+a:hover{
+    font-weight: bold;
+    color: #56BCB3;
+}
 
 #navbar {
     background-color: #FFFFFF;
@@ -77,13 +81,32 @@ a {
     border-radius: 5px;
     color: #56BCB3;
     font-weight: bold;
+    transition: all 0.25s;
 }
+#desc_button:hover{
+    background-color: #56BCB3;
+    color: #FFFFFF;
+}
+#noti{
+    background-color: red;
+    font-size: 11px;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    top: 11px;
+    right: -18px;
 
+}
+#logo{
+    cursor: pointer;
+}
 .drawer_icon_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 60px;
+    
 }
 
 .drawer_icon_container:hover {
@@ -108,6 +131,9 @@ a {
     flex-direction: column;
     justify-content: center;
     margin-left: 30px;
+    position: relative;
+    cursor: pointer;
+   
 }
 
 .icon_container i {
@@ -115,11 +141,23 @@ a {
 }
 
 .card_container {
+    transition: all 0.5s;
+    cursor: pointer;
     width: 350px;
     background-color: #FFFFFF;
     padding: 35px;
     border-radius: 5px;
     margin: 10px;
+    -webkit-box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.05);
+}
+
+.card_container:hover {
+    transform: scale(1.05, 1.05);
+    -webkit-box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.35);
 }
 
 .card_header {
@@ -156,6 +194,11 @@ a {
     padding: 5px 10px 5px 10px;
     width: 115px;
     margin-top: 20px;
+    transition: all 0.25s;
+}
+.card_button:hover{
+    background-color: #56BCB3;
+    color: #FFFFFF;
 }
 
 .card_wrapper {
@@ -163,7 +206,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 250px;
-    
+
 }
 
 #footer {
@@ -210,13 +253,16 @@ a {
         align-items: center;
         margin-top: 20px;
     }
+
     .rightNav {
         padding: 10px;
     }
+
     #contentContainer {
         padding: 30px;
     }
-    .card_wrapper{
+
+    .card_wrapper {
         justify-content: center;
     }
 }
