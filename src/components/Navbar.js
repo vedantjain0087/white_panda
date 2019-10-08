@@ -6,8 +6,9 @@ export default function Navbar() {
 
                 <div className="col-md-7">
                     <img src="images/logo.png" alt="Logo"/>
+                    <i className="fa fa-align-justify bread" id="bread" aria-hidden="true"></i>
                 </div>
-                <div className="col-md-5 rightNav">
+                <div className="col-md-5 rightNav" id="rightNav">
                     <div className="icon_container">
                         <i className="fa fa-bell-o" aria-hidden="true"></i>
                     </div>

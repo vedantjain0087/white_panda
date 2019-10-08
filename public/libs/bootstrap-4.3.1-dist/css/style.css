@@ -26,8 +26,7 @@ a {
     z-index: 1;
 }
 
-#main_screen {
-}
+#main_screen {}
 
 #profile_picture {
     background-color: #B3E77F;
@@ -138,7 +137,8 @@ a {
     font-size: 20px;
 }
 
-.card_title_price, .card_title_price i {
+.card_title_price,
+.card_title_price i {
     font-size: 15px;
 }
 
@@ -163,9 +163,10 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 250px;
+    justify-content: center;
 }
 
-#footer{
+#footer {
     background-color: #FFFFFF;
     align-items: center;
     text-align: center;
@@ -176,12 +177,43 @@ a {
     margin-left: -30px;
     padding: 30px;
 }
-#footer img{
+
+#footer img {
     cursor: pointer;
 }
-#declaration i{
+
+#declaration i {
     color: red;
 }
-#footer_navigation{
+
+#footer_navigation {
     color: #56BCB3
+}
+
+#bread {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #drawer {
+        display: none;
+    }
+
+    #footer img {
+        width: 80%;
+    }
+
+    #bread {
+        display: block;
+        cursor: pointer;
+        float: right;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .rightNav {
+        padding: 10px;
+    }
+    #contentContainer {
+        padding: 30px;
+    }
 }

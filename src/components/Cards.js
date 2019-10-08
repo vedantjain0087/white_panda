@@ -18,6 +18,7 @@ export default class Cards extends Component {
          </div>
          <div className="card_body">
              {c.body}
+             <br/>
              <button className="card_button">Order</button>
          </div>
      </div>
