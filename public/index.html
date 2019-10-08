@@ -47,7 +47,9 @@
   </body>
   <script>
     $(document).ready(function(){
+      if(screen.width <=800){
     $("#rightNav").slideUp();
+      }
     })
      $("#bread").click(function(){
     $("#rightNav").slideToggle();
