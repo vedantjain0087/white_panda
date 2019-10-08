@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/white_panda/static/css/main.34de6062.chunk.css",
+    "main.js": "/white_panda/static/js/main.234dbdfb.chunk.js",
+    "main.js.map": "/white_panda/static/js/main.234dbdfb.chunk.js.map",
+    "runtime-main.js": "/white_panda/static/js/runtime-main.e69f829d.js",
+    "runtime-main.js.map": "/white_panda/static/js/runtime-main.e69f829d.js.map",
+    "static/js/2.e1024ce8.chunk.js": "/white_panda/static/js/2.e1024ce8.chunk.js",
+    "static/js/2.e1024ce8.chunk.js.map": "/white_panda/static/js/2.e1024ce8.chunk.js.map",
+    "index.html": "/white_panda/index.html",
+    "precache-manifest.632773c2ee290c136599069650426591.js": "/white_panda/precache-manifest.632773c2ee290c136599069650426591.js",
+    "service-worker.js": "/white_panda/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/white_panda/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e69f829d.js",
+    "static/js/2.e1024ce8.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.234dbdfb.chunk.js"
+  ]
+}
